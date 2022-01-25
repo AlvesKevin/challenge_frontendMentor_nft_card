@@ -1,0 +1,117 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: hsl(217, 54%, 11%);
+    font-family: "Outfit Thin";
+    overflow-x: hidden;
+}
+
+a{
+    color: hsl(228, 45%, 44%);
+}
+
+.box{
+    display: block;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: black;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.main_image{
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.text{
+    display: block;
+    height: 100px;
+    width: 300px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+.text p{
+    color: hsl(215, 51%, 70%);
+    text-align: start;
+}
+
+#titre{
+    font-weight: 900;
+}
+
+#sousTexte{
+    margin-left: 8px;
+    font-weight: 300;
+}
+
+.container{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 40px;
+    grid-template-columns: 20px 100px 180px 20px 100px;
+    gap: 0;
+}
+
+.item1{
+    align-self: center;
+}
+.item2{
+    align-self: center;
+}
+
+.espace{
+    align-self: center;
+}
+
+.item3{
+    align-self: center;
+}
+.item4{
+    align-self: center;
+    /*background-color: rgba(111,41,97,.3);
+    border: 2px solid rgba(111,41,97,.5);*/
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 900;
+
+}
+
+#separation{
+    width: 400px;
+    size: 1px;
+    border: 1px solid grey;
+}
+
+#avatar{
+    margin-right: 350px;
+    margin-top: 20px;
+    width: 50px;
+    border: 2px solid white ;
+    border-radius: 90px;
+}
+
+#texteAvatar{
+    margin-top: -40px;
+    margin-right: 60px;
+    font-weight: 400;
+}
