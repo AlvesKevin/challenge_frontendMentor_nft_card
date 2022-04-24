@@ -5,7 +5,6 @@ html body{
     text-align: center;
     color: white;
     background: hsl(217, 54%, 11%);
-    font-family: "Outfit Thin", sans-serif;
     overflow-x: hidden;
 }
 
@@ -43,7 +42,7 @@ a{
 .text{
     display: block;
     height: 100px;
-    width: 300px;
+    width: 350px;
     margin-top: 75px;
     margin-left: 40px;
 }
@@ -54,12 +53,17 @@ a{
 }
 
 #titre{
+    font-family: "Outfit Thin", sans-serif;
     font-weight: 900;
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
 }
 
 #sousTexte{
     margin-left: 8px;
     font-weight: 300;
+    font-family: "Outfit Thin", sans-serif;
 }
 
 .container{
@@ -86,6 +90,7 @@ a{
 }
 .item4{
     align-self: center;
+    font-family: "Outfit Thin", sans-serif;
     /*background-color: rgba(111,41,97,.3);
     border: 2px solid rgba(111,41,97,.5);*/
 }
@@ -93,7 +98,7 @@ a{
 #eth{
     color: hsl(178, 100%, 50%);
     font-weight: 900;
-
+    font-family: "Outfit Thin", sans-serif;
 }
 
 #separation{
@@ -114,4 +119,5 @@ a{
     margin-top: -40px;
     margin-right: 60px;
     font-weight: 400;
+    font-family: "Outfit Thin", sans-serif;
 }
